@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Libre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <ul class="logoBuscador">
+           <li class="logo"><img src="img/mercadoLibreLogo.png" alt="Mercado Libre"></li> 
+           <li class="buscador">  
+               <form action="#" method="POST">
+                    <input type="text" name="buscador" list="listado" class="buscador-topbar" placeholder="Buscar productos, marcas y más..">
+                    <datalist id="listado">
+                        <option value="Impresora">
+                        <option value="Licuadora">
+                        <option value="Nintendo Switch">
+                        <option value="Ventilador">
+                    </datalist>
+                    <button type="submit" tabindex="4">
+                        <div> <img src="img/icons8-búsqueda-50 (1).png" alt=""></div>
+                    </button>
+                </form>
+               
+            </li>
+        </ul>
+          
+        <nav> 
+            <div>
+                <ul class="menu">
+                    <div class="ubicacionCaja">
+                        <li class="ubicacion"><img src="img/icons8-marcador-50.png" alt="ubicacion"></li>
+                        <li class="enviarDireccion"><p class="enviar">Enviar a Lucia</p><p class="direccion">Direccion 123..</p></li>
+                    </div>
+                    <li>Categorias</li>
+                    <li>Ofertas</li>
+                    <li>Historial</li>
+                    <li>Supermercado</li>
+                    <li>Moda</li>
+                    <li>Vender</li>
+                    <li>Ayuda</li>
+                    <div class="menuDos">
+                        <li class="usuario"><img src="img/icons8-usuario-masculino-en-círculo-64.png" alt="usuario">Usuario</li>
+                        <li>Compras</li>
+                        <li>Favoritos</li>
+                        <li class="notificaciones"><img src="img/icons8-campana-100.png" alt="Notificaciones"></li>
+                        <li class="compras"><img src="img/icons8-carrito-de-compras-50.png" alt="Carrito"></li>
+                     </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="carrousel">
+        <div class="imgCarrousel">
+            <img src="img/1646670492640-home-sliderdesktop.webp" alt="">
+            <img src="img/1646777392428-home-sliderdesktop.webp" alt="">  
+        </div>
+    </section>
+    <section>
+        <h2 class="subtitulos">¡APROVECHÁ LOS MEJORES PRECIOS!</h2>
+    </section>
+    
+    <script src="js/index.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $('.imgCarrousel').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,  
+                arrows: false,
+                dotsClass:'slick-dots'
+            });
+        });
+    </script>
+</body>
+</html>

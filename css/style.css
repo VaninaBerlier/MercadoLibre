@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+header{
+    background-color: #fff159;
+    color: #8b8972;
+}
+
+.logoBuscador{
+    display: flex;
+    list-style: none;
+    padding-left: unset;
+    padding-top: 10px;
+}
+.logo img{
+    margin-left: 160px;
+    width: 170px;
+
+}
+nav{
+    display: flex;
+}
+.buscador form input{ 
+    width: 580px;
+    height: 38px;
+    border: 0px;
+    font-size: 16px;
+    color: #8b8972;
+    padding-left: 10px;
+    box-shadow: 5px 4px 8px -5px;
+    font-family: inherit;
+}
+button{
+    background-color: white;
+    border: 0px;
+    position: relative;
+    top: 8px;
+    right: 48px;
+}
+button div img{
+    width: 23px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding-bottom: 10px;
+    margin-left: 122PX;
+    margin-top: 10px;
+    height: 30px;
+}
+.menu li{
+    text-align: center;
+   font-size: 14px;
+    margin: 10px 10px 0px 10px;
+}
+.menuDos{
+     display: flex;
+     margin-left: 170px;
+     color: black;
+ }
+
+.notificaciones img{
+    margin: 0px;
+    width: 33px;
+    height: 35px;
+}
+
+.menu li:hover{
+    color: black;
+    cursor: pointer;
+}
+.notificaciones{
+    bottom: 10px;
+    position: relative;
+}
+.compras{
+    position: relative;
+    bottom: 8px;
+    right: 7px;
+}
+.compras img{
+    width: 26px;
+    height: 27px;
+}
+.ubicacionCaja{
+    display: flex;
+    position: relative;
+    right: 44px;
+}
+.ubicacion img{
+    width: 25px;
+    height: 23px; 
+    position: relative;
+    left: 28px;
+    bottom: 10px;
+}
+.enviar{
+    font-size: 11px;
+}
+.direccion{
+    position: relative;
+    left: 11px;
+    color: black;
+}
+.enviarDireccion{
+    position: relative;
+    bottom: 8px;
+}
+.usuario{
+    position: relative;
+    bottom: 8px;
+}
+.usuario img{
+    width: 21px;
+    margin-right: 6px;
+}
+.buscador-topbar{
+    color: aquamarine;
+}
+.imgCarrousel{
+    display: flex;
+}
+.subtitulos{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 4.5px;
+}
