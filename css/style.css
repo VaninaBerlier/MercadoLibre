@@ -130,15 +130,31 @@ button div img{
     font-weight: 500;
     letter-spacing: 4.5px;
 }
-.conteiner ul{
+.conteiner{
     display: flex;
-    margin-left: 450px;
-    margin-right: 365px;
+    margin-left: 192px;
+    margin-right: 225px;
     margin-top: 40px;
     background-color: white;
 }
-.conteiner ul li{
+.conteiner div{
     list-style: none;
     align-items: center;
     margin: 20px;
+    display: flex;
+    font-size: 17px;
+    padding: 13px;
+    white-space: nowrap;
+}
+.conteiner div img{
+    width: 25px;
+    border: solid 0.5px rgb(208, 210, 226);
+    border-radius: 50%;
+    padding: 5px;
+}
+.conteiner div img:hover{
+    cursor: pointer;
+}
+.textoConteiner{
+    margin-left: 25px;
 }
