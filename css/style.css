@@ -158,3 +158,17 @@ button div img{
 .textoConteiner{
     margin-left: 25px;
 }
+.ofertas{
+    display:flex;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.ofertas h2{
+    font-weight: 100;
+}
+.vermas{
+    margin-top: 6px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: blue;
+}
